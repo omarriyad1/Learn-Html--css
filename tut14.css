@@ -1,0 +1,23 @@
+@keyframes change-color {
+  0%{background-color: salmon; }
+  15%{background-color: lightblue;top:10px ;left:10px;}
+  30%{background-color:burlywood;top:20px ;left:20px;}
+  45%{background-color:cadetblue;top:30px ;left:30px;}
+  70%{background-color:cornflowerblue;top:40px ;left:40px;}
+  100%{background-color:coral;top:50px ;left:50px;}
+  
+}
+@keyframes change-color2 {
+    0%{background-color: salmon; }
+    15%{background-color: lightblue;top:10px ;left:10px;}
+    30%{background-color:burlywood;top:20px ;left:20px;}
+    45%{background-color:cadetblue;top:30px ;left:30px;}
+    70%{background-color:cornflowerblue;top:40px ;left:40px;}
+    100%{background-color:coral;top:50px ;left:50px;}
+    
+  }
+  .box-animation{
+position: relative;
+animation: change-color2 2s ;
+animation-iteration-count: 2;
+  }
