@@ -1,0 +1,44 @@
+body{background-color: black;
+    
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.reccomendations{
+display: flex;
+width: 500px;
+}
+.view-info{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.preview{
+    position: relative;
+    cursor: pointer;
+    margin-right: 0.25rem;
+}
+.timestamp{
+position: absolute;
+bottom: 5px;
+right: 5px;
+background: black;
+color: aliceblue;
+padding: 0.15rem;
+border-radius: 0.25rem;
+}
+.title{
+    
+    font-weight: bold;
+    font-size: 1.25rem;
+cursor: pointer;
+color: aliceblue;
+}
+.username{
+    font-size: 1.1rem;
+cursor: pointer;
+color: darkgray;
+}
+.info{
+    color:darkgrey;
+}
