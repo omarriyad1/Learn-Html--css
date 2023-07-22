@@ -1,0 +1,15 @@
+@keyframes change-color
+{
+    from{
+        background-color: bisque;}
+    to{background-color: darkcyan;}
+}
+
+.box-animation{
+animation: change-color 4s ;
+}
+.Squaree {
+        width: 100px;
+        height: 100px;
+        background-color: bisque;
+      }
